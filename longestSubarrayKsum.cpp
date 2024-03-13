@@ -30,9 +30,6 @@ int longestSubarrayUsingPointer(int arr[],int k, int n){
 
 
 
-
-
-
 //TODO: 2 better approach
 // using hashmap and storing sum on indexes and slicing array in x-k from start
 int longestSubarrayByMap(int arr[],int k, int n){
@@ -55,6 +52,7 @@ int longestSubarrayByMap(int arr[],int k, int n){
     }
     return len;
 }
+
 
 
 //TODO: 1. Brute Approach 
