@@ -12,8 +12,6 @@ int PascalValue(int n,int r){
     }
     return ans;
 }
-
-
 //print any one row of pascal triangle
     vector<int>printRow(int row){
         vector<int>ansRow;
@@ -26,10 +24,6 @@ int PascalValue(int n,int r){
         }
         return ansRow;
     }
-
-
-
-
 
 //Print the pascal triangle till the nth row
     vector<int>generateRow(int row){
