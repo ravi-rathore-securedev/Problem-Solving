@@ -45,11 +45,11 @@ int main(){
 int V =5;
 
 vector<int> adj[] = {
-        {1}, // neighbors of vertex 0
-        {0,2,4},       // neighbors of vertex 1
-        {1,3},    // neighbors of vertex 2
+        {1}, 
+        {0,2,4},  
+        {1,3}, 
         {2,4},
-        {1,3}       // neighbors of vertex 3
+        {1,3}    
     };
 
 bool res;
