@@ -22,8 +22,7 @@ void BFS(unordered_map<int,vector<int>> &adj, int u, vector<bool>&visited, vecto
         }
     }
 
-}       
-
+}
 vector<int> bfsGraph(int V, vector<int>mp[]){
     unordered_map<int,vector<int>> adj;
 
